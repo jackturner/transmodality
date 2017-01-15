@@ -1,0 +1,62 @@
+/* CSS RESET - Jack Turner style, few enough rules you can grasp it in your mindbrain */
+* {
+    margin:             0;
+    padding:            0;
+    }
+  
+img {
+    border:             none;
+    vertical-align:     middle;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:        normal;
+    }
+
+html {
+    box-sizing:         border-box;
+    }
+
+*, *:before, *:after {
+    box-sizing:         inherit;
+    }
+
+/* General styling */
+body {
+    margin:             20px 80px;
+    font-size:          18px;
+    line-height:        1.4;
+    font-family:        Georgia, Times, 'Times New Roman', serif;
+    }
+
+header {
+    margin:             120px 20px 80px;
+    text-align:         center;
+    }
+
+p {
+    margin:             0 0 1em;
+    }
+
+#introduction {
+    margin:             80px 0;
+    }
+
+#introduction p {
+    text-indent:        1em;
+    -webkit-hyphens:    auto;
+    -moz-hyphens:       auto;
+    -ms-hyphens:        auto;
+    hyphens:            auto;    
+    text-align:         justify;
+    }
+
+@media (min-width: 800px) {
+    #introduction {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+    column-gap:         1.5em;
+    }
+
+}
