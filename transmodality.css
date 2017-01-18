@@ -83,6 +83,10 @@ p {
     text-align:         justify;
     }
 
+#alphabetic-statement {
+    font-family: AmericanTypewriter, monospace;
+}
+
 @media (min-width: 800px) {
     #introduction {
     -moz-column-count:    2;
