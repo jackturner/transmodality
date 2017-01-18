@@ -21,16 +21,48 @@ html {
     box-sizing:         inherit;
     }
 
+
+@font-face {
+    font-family: 'poppins_regularregular';
+    src: url('webfonts/poppins-regular.woff2') format('woff2'),
+         url('webfonts/poppins-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('webfonts/poppins-semibold.woff2') format('woff2'),
+         url('webfonts/poppins-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('webfonts/raleway_thin-webfont.woff2') format('woff2'),
+         url('webfonts/raleway_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* General styling */
 body {
     margin:             20px 80px;
-    font-size:          18px;
+    font-size:          16px;
     line-height:        1.4;
-    font-family:        Georgia, Times, 'Times New Roman', serif;
+    font-family:        'poppins_regularregular', Times, 'Times New Roman', serif;
     }
 
 header {
-    margin:             120px 20px 80px;
+    margin:             80px 20px 80px;
+    font-size:          20px;
+    font-family:        'poppinssemibold', Times, 'Times New Roman', serif;
     text-align:         center;
     }
 
@@ -50,6 +82,10 @@ p {
     hyphens:            auto;    
     text-align:         justify;
     }
+
+#alphabetic-statement {
+    font-family: AmericanTypewriter, monospace;
+}
 
 @media (min-width: 800px) {
     #introduction {
