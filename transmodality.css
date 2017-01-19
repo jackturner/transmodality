@@ -202,7 +202,12 @@ a.hover {
 
 #audio-player {
     display: block;
-    margin: 200px auto 150px;
+    margin: 10px auto 150px;
+}
+
+#audio-page-image {
+    display: block;
+    margin: 100px auto 10px;
 }
 
 /* Responsive stuff */
