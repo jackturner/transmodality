@@ -4,7 +4,7 @@ $( function() {
 
 	$links.on( 'mouseenter', function() {
 
-		var href_we_looking_for = $( this).attr( 'href' )
+		var href_we_looking_for = $( this ).attr( 'href' )
 
 		$links.each( function() {
 
@@ -17,6 +17,6 @@ $( function() {
 
 		$links.removeClass('hover')
 
-	})
+	} )
 
 } )
