@@ -70,13 +70,13 @@ p {
     margin:             0 0 1em;
     }
 
-/*a {
-    color:              ;
+a {
+    color:              black;
 }
 
 a:hover {
-    color:              ;
-}*/
+    color:              #AF0C1F;
+}
 
 /* Introduction on homepage */
 #introduction {
@@ -102,7 +102,7 @@ a:hover {
     }
 
 #media a {
-    background-color:   blue;
+    background-color:   white;
     display:            block;
     text-align:         center;
     padding-bottom:     1em;
@@ -111,7 +111,7 @@ a:hover {
     }
 
 #media a:hover {
-    background-color:   orange;
+    background-color:   #F4959A;
     }
 
 #media img {
@@ -121,6 +121,11 @@ a:hover {
 #media span {
     display:            block;
     }
+
+#media a:hover span {
+    color:              black;
+
+}
 
 #alphabetic-statement {
 
