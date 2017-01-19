@@ -195,6 +195,11 @@ a.hover {
     padding-left:        2em;
 }
 
+#resources-list h2 {
+    margin-bottom:       0.5em;
+    font-weight:          bold;
+}
+
 /* Responsive stuff */
 @media (min-width: 800px) {
     #introduction {
