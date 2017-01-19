@@ -72,11 +72,13 @@ p {
 
 a {
     color:              black;
-}
+    transition:         color ease 300ms;
+    }
 
-a:hover {
+a:hover,
+a.hover {
     color:              #AF0C1F;
-}
+    }
 
 /* Introduction on homepage */
 #introduction {
@@ -110,7 +112,8 @@ a:hover {
     transition:         background-color ease 300ms;
     }
 
-#media a:hover {
+#media a:hover,
+#media a.hover {
     background-color:   #F4959A;
     }
 
@@ -124,14 +127,12 @@ a:hover {
 
 #media a:hover span {
     color:              black;
-
-}
+    }
 
 #alphabetic-statement {
-
     font-family: 'Courier New', monospace;
     font-size:          18px;
-}
+    }
 
 /* Responsive stuff */
 @media (min-width: 800px) {
