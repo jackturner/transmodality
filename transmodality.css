@@ -72,11 +72,13 @@ p {
 
 a {
     color:              black;
-}
+    transition:         color ease 300ms;
+    }
 
-a:hover {
-    color:              black;
-}
+a:hover,
+a.hover {
+    color:              #AF0C1F;
+    }
 
 /* Introduction on homepage */
 #introduction {
@@ -110,8 +112,9 @@ a:hover {
     transition:         background-color ease 300ms;
     }
 
-#media a:hover {
-    background-color:   #C5F4C2;
+#media a:hover,
+#media a.hover {
+    background-color:   #F4959A;
     }
 
 #media img {
@@ -124,8 +127,7 @@ a:hover {
 
 #media a:hover span {
     color:              black;
-
-}
+    }
 
 #resources a {
     background-color:   white;
@@ -148,10 +150,9 @@ a:hover {
     }
 
 #alphabetic-statement {
-
     font-family: 'Courier New', monospace;
     font-size:          18px;
-}
+    }
 
 /* Responsive stuff */
 @media (min-width: 800px) {
