@@ -1,6 +1,6 @@
 $( function() {
 
-	var $links = $( '#introduction a, #media a' )
+	var $links = $( '#introduction a, #media a, #resources a' )
 
 	$links.on( 'mouseenter', function() {
 

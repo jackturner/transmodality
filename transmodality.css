@@ -53,7 +53,7 @@ html {
 
 /* General styling */
 body {
-    margin:             20px 80px;
+    margin:             20px 80px 60px;
     font-size:          16px;
     line-height:        1.4;
     font-family:        'poppins_regularregular', Times, 'Times New Roman', serif;
@@ -77,12 +77,11 @@ a {
 
 a:hover,
 a.hover {
-    color:              #AF0C1F;
     }
 
 /* Introduction on homepage */
 #introduction {
-    margin:             80px 0;
+    margin:             80px 0 40px;
     }
 
 #introduction p {
@@ -94,9 +93,29 @@ a.hover {
     text-align:         justify;
     }
 
+#introduction a.alphabetic-statement-link:hover,
+#introduction a.alphabetic-statement-link.hover {
+    color:              #E24747;
+    }
+
+#introduction a.audio-discussion-link:hover,
+#introduction a.audio-discussion-link.hover {
+    color:              #4BA346;
+    }
+
+#introduction a.video-trailer-link:hover,
+#introduction a.video-trailer-link.hover {
+    color:              #4E7CDE;
+    }
+
+#introduction a.resources-link:hover,
+#introduction a.resources-link.hover {
+    color:              #A05CD9;
+    }
+
 /* Media Links */
 #media ul {
-    justify-content:    space-between;
+    justify-content:    space-around;
     }
 
 #media li {
@@ -112,9 +131,24 @@ a.hover {
     transition:         background-color ease 300ms;
     }
 
-#media a:hover,
+/*#media a:hover,
 #media a.hover {
     background-color:   #F4959A;
+    }*/
+
+#media a.alphabetic-statement-link:hover,
+#media a.alphabetic-statement-link.hover {
+    background-color:   #FAC2C2;
+    }
+
+#media a.audio-discussion-link:hover,
+#media a.audio-discussion-link.hover {
+    background-color:   #C5F4C2;
+    }
+
+#media a.video-trailer-link:hover,
+#media a.video-trailer-link.hover {
+    background-color:   #C2D4FA;
     }
 
 #media img {
@@ -141,7 +175,9 @@ a.hover {
 
     }
 
-#resources a:hover {
+#resources a:hover,
+#resources a.hover {
+
     background-color:   #DEC1F6;
     }
 
@@ -153,6 +189,11 @@ a.hover {
     font-family: 'Courier New', monospace;
     font-size:          18px;
     }
+
+#resources-list {
+    text-indent:        -2em;
+    padding-left:        2em;
+}
 
 /* Responsive stuff */
 @media (min-width: 800px) {
@@ -167,6 +208,6 @@ a.hover {
     display:            flex;
     }
     #media li {
-    width:              30%;
+    width:              20%;
     }
 }
