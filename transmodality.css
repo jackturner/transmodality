@@ -56,13 +56,13 @@ body {
     margin:             20px 80px 60px;
     font-size:          16px;
     line-height:        1.4;
-    font-family:        'poppins_regularregular', Times, 'Times New Roman', serif;
+    font-family:        'poppins_regularregular', 'Century Gothic', Helvetica, sans-serif;
     }
 
 header {
     margin:             80px 20px 80px;
     font-size:          20px;
-    font-family:        'poppinssemibold', Times, 'Times New Roman', serif;
+    font-family:        'poppinssemibold', 'Century Gothic', Helvetica, sans-serif;
     text-align:         center;
     }
 
@@ -208,6 +208,11 @@ a.hover {
 #audio-page-image {
     display: block;
     margin: 100px auto 10px;
+}
+
+video {
+    display: block;
+    margin: 10px auto;
 }
 
 /* Responsive stuff */
