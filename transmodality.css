@@ -169,8 +169,8 @@ a.hover {
     text-align:         center;
     padding-bottom:     1em;
     margin-bottom:      20px;
-    padding-top:     1em;
-    margin-top:      20px;
+    padding-top:        1em;
+    margin-top:         20px;
     transition:         background-color ease 300ms;
 
     }
@@ -198,6 +198,11 @@ a.hover {
 #resources-list h2 {
     margin-bottom:       0.5em;
     font-weight:          bold;
+}
+
+#audio-player {
+    display: block;
+    margin: 200px auto 150px;
 }
 
 /* Responsive stuff */
