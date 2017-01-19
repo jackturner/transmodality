@@ -75,8 +75,9 @@ a {
     transition:         color ease 300ms;
     }
 
-a:hover,
-a.hover {
+header a:hover,
+header a.hover {
+        background-color:   #FFF6C2;
     }
 
 /* Introduction on homepage */
