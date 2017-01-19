@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-    color:              #AF0C1F;
+    color:              black;
 }
 
 /* Introduction on homepage */
@@ -111,7 +111,7 @@ a:hover {
     }
 
 #media a:hover {
-    background-color:   #F4959A;
+    background-color:   #C5F4C2;
     }
 
 #media img {
@@ -126,6 +126,26 @@ a:hover {
     color:              black;
 
 }
+
+#resources a {
+    background-color:   white;
+    display:            block;
+    text-align:         center;
+    padding-bottom:     1em;
+    margin-bottom:      20px;
+    padding-top:     1em;
+    margin-top:      20px;
+    transition:         background-color ease 300ms;
+
+    }
+
+#resources a:hover {
+    background-color:   #DEC1F6;
+    }
+
+#resources span {
+    display:            block;
+    }
 
 #alphabetic-statement {
 
