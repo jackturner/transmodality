@@ -186,20 +186,14 @@ header a.hover {
     display:            block;
     }
 
+/*Alphabetic Staement page styling*/
+
 #alphabetic-statement {
     font-family: 'Courier New', monospace;
     font-size:          18px;
     }
 
-#resources-list {
-    text-indent:        -2em;
-    padding-left:        2em;
-}
-
-#resources-list h2 {
-    margin-bottom:       0.5em;
-    font-weight:          bold;
-}
+/*Audio Discussion page styling*/
 
 #audio-player {
     display: block;
@@ -211,9 +205,23 @@ header a.hover {
     margin: 100px auto 10px;
 }
 
+/*Video Trailer page styling*/
+
 video {
     display: block;
     margin: 10px auto;
+}
+
+/*Resource page styling*/
+
+#resources-list {
+    text-indent:        -2em;
+    padding-left:        2em;
+}
+
+#resources-list h2 {
+    margin-bottom:       0.5em;
+    font-weight:          bold;
 }
 
 /* Responsive stuff */
