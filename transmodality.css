@@ -238,3 +238,15 @@ a.return-to-intro.hover {
     width:              20%;
     }
 }
+
+@media    (max-width: 450px) {
+
+    header, body {
+    margin:             10px 20px;
+    }
+
+   
+    }
+
+
+
