@@ -222,7 +222,7 @@ a.return-to-intro.hover {
     color:              #F4D000;
     }
 
-/* Responsive stuff */
+/* Responsive stuff - Wide/Desktop version*/
 @media (min-width: 800px) {
     #introduction {
     -moz-column-count:    2;
@@ -238,6 +238,8 @@ a.return-to-intro.hover {
     width:              20%;
     }
 }
+
+/* Responsive stuff - Narrow/Mobile version*/
 
 @media    (max-width: 450px) {
 
