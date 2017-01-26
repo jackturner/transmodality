@@ -190,9 +190,12 @@ header a.hover {
 
 /*Audio Discussion page*/
 
-#audio-player {
-    display: block;
+.audiojs {
     margin: 10px auto 150px;
+}
+
+.audiojs .play-pause {
+    width: auto;
 }
 
 #audio-page-image {
@@ -243,6 +246,7 @@ a.return-to-intro.hover {
     header, body {
          margin:             10px 20px;
     }
+    
 #media ul {
     display:            block;
     }
@@ -250,10 +254,10 @@ a.return-to-intro.hover {
 #media li {
     width:              auto;
     }
-
-
    
-    }
-
+.audiojs {
+    width: auto;
+    height: auto;
+}
 
 

@@ -15,14 +15,21 @@
   <h3>Kate Artz, Danah Hashem, Anne Mooney</h3>
 </header>
 
+
 <img id="audio-page-image" src="media/speaker-with-sound-waves.svg" alt="a speaker emitting sound waves" width="150" />
 
-<audio controls="controls" id="audio-player">
-  Your browser does not support the <code>audio</code> element.
-  <source src="media/podcast.mp3" type="audio/mp3">
-</audio>
+<audio src="media/podcast.mp3" id="audio-player" preload="auto"></audio>
 
 <a href="audiotranscript.pdf" title="Read transcript of audio discusssion">Transcript of audio discussion</a>
+
+
+<script src="/audioplayer/audio.min.js"></script>
+<script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script>
+
 
 </body>
 </html>
